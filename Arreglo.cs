@@ -20,9 +20,10 @@ namespace Arreglos_G2_2024_II
             //   string [] arreglo = { "a", "b", "c", "d" };
             int[] arreglo = { 20, 1, -10, 9, 5, 100, 3 };
             Console.WriteLine("Imprimiendo de manera original");
-            for (int i = 0; i < arreglo.Length; i++)
+           // for (int i = 0; i < arreglo.Length; i++)
+            foreach (int num in arreglo)
             {
-                Console.Write(" {0} ", arreglo[i]);
+                Console.Write(" {0} ", num);
 
             }
             Array.Sort(arreglo);
